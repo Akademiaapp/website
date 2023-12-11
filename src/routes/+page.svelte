@@ -31,7 +31,7 @@
     onMount(async () => {
         const base_url = 'https://github.com/Akademiaapp/companion/releases/download/';
         const latest_version = (await (await fetch("https://raw.githubusercontent.com/Akademiaapp/companion/main/package.json")).json())["version"].toLowerCase().replace('v', '');
-        windows_download = `${base_url}v${latest_version}/Akademia_${latest_version}_x64_en-US.msi`;
+        windows_download = `${base_url}v${latest_version}/Akademia_${latest_version}_x64-setup.exe`;
         linux_appimage_download = `${base_url}v${latest_version}/Akademia_${latest_version}_amd64.AppImage`;
         linux_deb_download = `${base_url}v${latest_version}/Akademia_${latest_version}_amd64.deb`;
         apple_silicon_download = `${base_url}v${latest_version}/Akademia_${latest_version}_aarch64.dmg`;
