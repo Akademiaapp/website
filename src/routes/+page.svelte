@@ -9,14 +9,20 @@
     </p>
 </div>
 
-<div>
+<div class="buttons">
     <DownloadButton />
+    <SeeMoreButton />
 </div>
 
 <script lang="ts">
     import DownloadButton from "$lib/components/DownloadButton.svelte";
+    import SeeMoreButton from "$lib/components/SeeMoreButton.svelte";
 </script>
 
 <style>
-
+    .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
 </style>

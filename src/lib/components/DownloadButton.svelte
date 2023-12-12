@@ -70,7 +70,9 @@
         <div class="dropdown">
             <!-- Hide the first platform -->
             {#each platforms.slice(1) as platform}
-                <a class="dropdown_element" href={platform.download_url}><img src="/icons/download.svg" alt="Download {platform.name}" />Download {platform.name}</a>
+                <button>
+                    <a class="dropdown_element" href={platform.download_url}><img src="/icons/download.svg" alt="Download {platform.name}" />Download {platform.name}</a>   
+                </button>
             {/each}
         </div>
     {/if}
@@ -93,16 +95,21 @@
 		border-radius: 100px;
         min-width: max-content;
         user-select: none;
-        color: white;
+        color: black;
+        font-weight: 600;
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
     }
     a:hover {
 		filter: brightness(85%);
 	}
     img {
-		height: 40px;
+		height: 20px;
 	}
 
     .dropdown_container {
@@ -114,8 +121,8 @@
         top: 100%;
         left: 0;
         margin-top: 0;
-        background-color: darkgray;
-        border-radius: 0 0 10px 10px;
+        background-color: #4EB0C6;
+        border-radius: 10px;
         padding: 0.5rem;
         display: flex;
         flex-direction: column;
@@ -128,8 +135,7 @@
         gap: 0.5rem;
         padding: 0.5rem;
         border-radius: 10px;
-        background-color: gray;
-        color: white;
+        background-color: 4EB0C6;
         text-decoration: none;
     }
 
@@ -138,14 +144,15 @@
     }
 
     .dropdown_button {
+        border-radius: 100px;
         display: flex;
         align-items: center;
         gap: 0.5rem;
         padding: 0.5rem;
-        border-radius: 10px;
-        background-color: gray;
-        color: white;
+        border-radius: 100px;
+        background-color: #4EB0C6;
         text-decoration: none;
+        padding-right: 0.8rem;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
     }
@@ -181,12 +188,13 @@
         align-items: center;
         gap: 0.5rem;
         padding: 0.5rem;
-        border-radius: 10px;
-        background-color: gray;
-        color: white;
+        border-radius: 100px;
+        background-color: #4EB0C6;
         text-decoration: none;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .button_container {
