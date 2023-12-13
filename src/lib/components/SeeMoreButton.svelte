@@ -1,15 +1,6 @@
-<button class="mainbutton">
-    <a href="https://github.com/Akademiaapp"><img src="/icons/docs.svg" alt="See more" />See more</a>
-</button>
-
+<a class="mainbutton" href="https://github.com/Akademiaapp"><img src="/icons/docs.svg" alt="See more" />See more</a>
 
 <style>
-	button {
-        border: none;
-		background-color: transparent;
-		padding: 0;
-		margin: 0;
-	}
     a {
         font-size: 0.95rem;
         text-decoration: none;
