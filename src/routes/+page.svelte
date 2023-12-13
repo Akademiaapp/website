@@ -10,6 +10,7 @@
     <div class="buttons">
         <DownloadButton />
         <SeeMoreButton />
+        <OpenButton />
     </div>
 </div>
 
@@ -17,6 +18,7 @@
 <script lang="ts">
     import DownloadButton from "$lib/components/DownloadButton.svelte";
     import SeeMoreButton from "$lib/components/SeeMoreButton.svelte";
+    import OpenButton from "$lib/components/OpenButton.svelte";
 </script>
 
 <style>
