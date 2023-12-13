@@ -32,7 +32,7 @@
         os_name: 'MacIntel'
     }, {
         name: 'Windows',
-        ending: '_x64_en-US.msi',
+        ending: '_x64-setup.exe',
         os_name: 'Win32'
     }]
 
