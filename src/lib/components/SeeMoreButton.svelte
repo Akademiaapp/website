@@ -1,5 +1,5 @@
 <button class="mainbutton">
-    <a href="#more">See more</a>
+    <a href="https://github.com/Akademiaapp"><img src="/icons/docs.svg" alt="See more" />See more</a>
 </button>
 
 
@@ -19,14 +19,20 @@
         border: none;
         min-width: max-content;
         user-select: none;
-        color: black;
+        color: whitesmoke;
+        transition: all  0.3s ease;
         font-weight: 600;
         font-size: 1rem;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Manrope", sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
+    img {
+		height: 20px;
+	}
+
     a:hover {
 		filter: brightness(85%);
 	}
@@ -44,8 +50,9 @@
         align-items: center;
         gap: 0.5rem;
         padding: 0.5rem;
+        transition: all  0.3s ease;
         border-radius: 10px;
-        background-color: #56C7E0;
+        background-color: rgb(65, 109, 148);
         border-radius: 100px;
         padding-left: 1rem;
         padding-right: 1rem;
