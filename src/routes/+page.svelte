@@ -22,6 +22,8 @@
 <style>
     .title {
         margin-bottom: 0;
+        font-size: 3rem;
+        font-weight: 600;
     }
 
     .subtitle {
