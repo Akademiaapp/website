@@ -42,14 +42,12 @@
         platforms.forEach(platform => {
             platform.download_url = `${base_url}v${latest_version}/Akademia_${latest_version}${platform.ending}`;
         });
-        console.log(platforms)
         // Put the current platform at the top
         platforms.sort((a, b) => {
             if (a.os_name == current_platform) return -1;
             if (b.os_name == current_platform) return 1;
             return 0;
         });
-        console.log(platforms)
         platforms = platforms;
         loading = false;
     })
