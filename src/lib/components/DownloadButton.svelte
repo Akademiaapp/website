@@ -57,7 +57,7 @@
 <div class="dropdown_container" >
     <div class="button_container">
         <button on:click disabled={loading}>
-            <a class="mainbutton" href={platforms[0].download_url}><img src="/icons/download.svg" alt="Download {platforms[0].name}" />Download {platforms[0].name}</a>
+            <a class="mainbutton" href={platforms[0].download_url}><img src="/icons/download.svg" alt="Download icon" />Download {platforms[0].name}</a>
         </button>
         <button class="dropdown_button" on:click={e => dropdown_open = !dropdown_open} disabled={loading}>
             <img class={dropdown_open ? 'dropdown_image rotate' : 'dropdown_image'} src="/icons/arrow.svg" alt="Download" />

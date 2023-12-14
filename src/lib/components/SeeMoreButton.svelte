@@ -1,4 +1,4 @@
-<a class="mainbutton" href="https://github.com/Akademiaapp"><img src="/icons/docs.svg" alt="See more" />See more</a>
+<a class="mainbutton" href="https://github.com/Akademiaapp" aria-label="See more on Github"><img src="/icons/docs.svg" alt="See more on Github" />Learn more</a>
 
 <style>
     a {
