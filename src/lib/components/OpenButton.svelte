@@ -1,4 +1,4 @@
-<a class="mainbutton" href="https://github.com/Akademiaapp"><img src="/icons/docs.svg" alt="See more" />See more</a>
+<a class="mainbutton" target=”_blank” href="https://app.akademia.cc/"><img src="/icons/open_new.svg" alt="See more" />Open webapp</a>
 
 <style>
     a {
@@ -43,7 +43,7 @@
         padding: 0.5rem;
         transition: all  0.3s ease;
         border-radius: 10px;
-        background-color: rgb(65, 109, 148);
+        background-color: rgb(33, 91, 141);
         border-radius: 100px;
         padding-left: 1rem;
         padding-right: 1rem;

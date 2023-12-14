@@ -17,7 +17,7 @@
     [{
         name: 'Linux Appimage',
         ending: '_amd64.AppImage',
-        os_name: 'MacIntel'
+        os_name: 'Linux x86_64'
     }, {
         name: 'Linux Deb',
         ending: '_amd64.deb',
@@ -32,7 +32,7 @@
         os_name: 'MacIntel'
     }, {
         name: 'Windows',
-        ending: '_x64_en-US.msi',
+        ending: '_x64-setup.exe',
         os_name: 'Win32'
     }]
 
@@ -58,8 +58,8 @@
 
 <div class="dropdown_container" >
     <div class="button_container">
-        <button class="mainbutton" on:click disabled={loading}>
-            <a href={platforms[0].download_url}><img src="/icons/download.svg" alt="Download {platforms[0].name}" />Download {platforms[0].name}</a>
+        <button on:click disabled={loading}>
+            <a class="mainbutton" href={platforms[0].download_url}><img src="/icons/download.svg" alt="Download {platforms[0].name}" />Download {platforms[0].name}</a>
         </button>
         <button class="dropdown_button" on:click={e => dropdown_open = !dropdown_open} disabled={loading}>
             <img class={dropdown_open ? 'dropdown_image rotate' : 'dropdown_image'} src="/icons/arrow.svg" alt="Download" />
@@ -68,7 +68,6 @@
         
     {#if dropdown_open}
         <div class="dropdown">
-            <!-- Hide the first platform -->
             {#each platforms.slice(1) as platform}
                 <button>
                     <a class="dropdown_element" href={platform.download_url}><img src="/icons/download.svg" alt="Download {platform.name}" />Download {platform.name}</a>   
@@ -98,12 +97,10 @@
         color: black;
         font-weight: 600;
         font-size: 1rem;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Manrope", sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
     }
     a:hover {
 		filter: brightness(85%);
@@ -111,6 +108,12 @@
     img {
 		height: 20px;
 	}
+    * {
+        font-family: "Manrope", sans-serif;
+        font-size: 15.2px;
+        font-weight: 600;
+        transition: all  0.3s ease;
+    }
 
     .dropdown_container {
         position: relative;
@@ -121,7 +124,7 @@
         top: 100%;
         left: 0;
         margin-top: 0;
-        background-color: #4EB0C6;
+        background-color: #5ec9e0;
         border-radius: 10px;
         padding: 0.5rem;
         display: flex;
@@ -134,8 +137,9 @@
         align-items: center;
         gap: 0.5rem;
         padding: 0.5rem;
+        margin: 0;
         border-radius: 10px;
-        background-color: 4EB0C6;
+        background-color: #52bbd3;
         text-decoration: none;
     }
 
@@ -150,7 +154,7 @@
         gap: 0.5rem;
         padding: 0.5rem;
         border-radius: 100px;
-        background-color: #4EB0C6;
+        background-color: #5ec9e0;
         text-decoration: none;
         padding-right: 0.8rem;
         border-top-left-radius: 0;
@@ -187,9 +191,9 @@
         display: flex;
         align-items: center;
         gap: 0.5rem;
-        padding: 0.5rem;
+        padding: 1rem;
         border-radius: 100px;
-        background-color: #4EB0C6;
+        background-color: #5ec9e0;
         text-decoration: none;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
