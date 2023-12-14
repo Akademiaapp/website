@@ -37,7 +37,7 @@
     "start_url": "https://akademia.cc/",
     "background_color": "#000000",
     "theme_color": "#000000",
-    "display": "fullscreen",
+    "display": "browser",
     "orientation": "portrait-primary",
     "categories": ["school", "writing", "education", "notes", "notetaking", "social", "app", "akademia"]
   }
