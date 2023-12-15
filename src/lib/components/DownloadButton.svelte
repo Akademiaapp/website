@@ -28,7 +28,7 @@
         os_name: 'MacIntel'
     }, {
         name: 'Mac Intel',
-        ending: '_aarch6_x64.dmg',
+        ending: '_x64.dmg',
         os_name: 'MacIntel'
     }, {
         name: 'Windows',
