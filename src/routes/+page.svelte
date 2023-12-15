@@ -12,6 +12,7 @@
         <SeeMoreButton />
         <OpenButton />
     </div>
+    <a href="/privacy-policy" >Privacy policy</a>
 </div>
 
 
