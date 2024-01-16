@@ -12,7 +12,10 @@
         <SeeMoreButton />
         <OpenButton />
     </div>
-    <a href="/privacy-policy" >Privacy policy</a>
+    <div class="buttons">
+        <a href="/privacy-policy" >Privacy policy</a>
+        <a href="https://status.akademia.cc/" >Status</a>
+    </div>
 </div>
 
 
