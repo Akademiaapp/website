@@ -7,7 +7,7 @@
     <p class="subtitle">
         En bedre opgave- og noteplatform
     </p>
-    <p class="subtitle>
+    <p class="subtitle">
         -- ⚠️ -- Akademia er under en meget stor refactor, hele systemet er nede et par dage endnu. -- ⚠️ --
     </p>
     <div class="buttons">
