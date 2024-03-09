@@ -5,7 +5,10 @@
     </p>
     <h1 class="title">Akademia</h1>
     <p class="subtitle">
-        A new way of learning, writing and remembering
+        En bedre opgave- og noteplatform
+    </p>
+    <p class="subtitle>
+        -- ⚠️ -- Akademia er under en meget stor refactor, hele systemet er nede et par dage endnu. -- ⚠️ --
     </p>
     <div class="buttons">
         <DownloadButton />
