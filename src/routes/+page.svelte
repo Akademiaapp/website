@@ -8,7 +8,7 @@
         En bedre opgave- og noteplatform
     </p>
     <p class="subtitle">
-        -- ⚠️ -- Akademia er under en meget stor refactor, hele systemet er nede et par dage endnu. -- ⚠️ --
+        - ⚠️ - Akademia er under en meget stor refactor, hele systemet er nede et par dage endnu. - ⚠️ -
     </p>
     <div class="buttons">
         <DownloadButton />
