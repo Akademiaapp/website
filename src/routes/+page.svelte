@@ -1,4 +1,5 @@
 <script>
+	import { ArrowDown } from 'lucide-svelte';
 </script>
 
 <div class="header py-40 px-24 space-y-8">
@@ -7,7 +8,10 @@
 	</h1>
 	<div class="flex gap-10 items-center text-xl">
 		<button class=" button primary text-xl px-6 py-1 rounded-md"> Prøv det! </button>
-		<a href=""> Lær </a>
+		<a href="" class="flex gap-1 whitespace-nowrap relative items-center">
+			Lær mere
+			<ArrowDown size="19"></ArrowDown>
+		</a>
 	</div>
 </div>
 
@@ -19,9 +23,11 @@
 			width: 100%;
 			transform: scaleX(0);
 			height: 1px;
+			position: absolute;
 			background-color: #000;
 			transition: transform 0.3s;
 			transform-origin: right;
+			bottom: 0;
 		}
 
 		&:hover::after {
