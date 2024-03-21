@@ -15,8 +15,8 @@
 		<ExternalLink size="19" />
 	</a>
 	<div class="spacer"></div>
-	<a href="" class="button hover:bg-muted">Login</a>
-	<a href="" class="button primary">Sign up</a>
+	<a href="https://app.akademia.cc/" class="button hover:bg-muted">Login</a>
+	<a href="https://app.akademia.cc/register" class="button primary">Sign up</a>
 </nav>
 <div class="header py-32 px-24 flex gap-20 relative overflow-hidden w-auto max-w-[100rem] mx-auto">
 	<slot />

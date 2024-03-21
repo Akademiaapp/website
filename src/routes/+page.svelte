@@ -10,7 +10,10 @@
 		alt samlet i én platform
 	</h1>
 	<div class="flex gap-10 items-center text-xl">
-		<a href="https://app.akademia.cc" class="button shadow primary text-xl px-6 py-1 rounded-md">
+		<a
+			href="https://app.akademia.cc/register"
+			class="button shadow primary text-xl px-6 py-1 rounded-md"
+		>
 			Prøv det!
 		</a>
 		<a href="" class="fancy flex gap-1 whitespace-nowrap relative items-center">
