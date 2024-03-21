@@ -10,7 +10,7 @@
 	<a href="" class="button hover:bg-muted">Lær mere</a>
 	<div class="spacer"></div>
 	<a href="" class="button hover:bg-muted">login</a>
-	<a href="" class="button bg-primary hover:bg-primary-muted">Sign up</a>
+	<a href="" class="button primary">Sign up</a>
 </nav>
 <slot />
 

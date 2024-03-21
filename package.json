@@ -35,5 +35,8 @@
     "vite": "^4.4.2",
     "wrangler": "^3.19.0"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "lucide": "^0.359.0"
+  }
 }
