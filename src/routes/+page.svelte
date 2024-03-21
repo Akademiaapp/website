@@ -4,7 +4,10 @@
 
 <div class="header py-40 px-24 space-y-8">
 	<h1 class="text-7xl font-bold leading-[5rem] max-w-[40rem]">
-		<span>Opgaver</span>, <span>Lektier</span>, <span>Noter</span> Alt samlet i én platform
+		<span class="shadow-blue-700">Opgaver</span>,
+		<span class="shadow-purple-700">Lektier</span>,
+		<span class="shadow-emerald-700">Noter</span>
+		alt samlet i én platform
 	</h1>
 	<div class="flex gap-10 items-center text-xl">
 		<button class="button shadow primary text-xl px-6 py-1 rounded-md"> Prøv det! </button>
@@ -16,9 +19,13 @@
 </div>
 
 <style lang="scss">
+	span {
+		transition: all 300ms;
+	}
 	span:hover {
-		-webkit-text-stroke: 1px black;
-		-webkit-text-fill-color: white;
+		// -webkit-text-stroke: 1px black;
+
+		text-shadow: var(--tw-shadow-color) 0 0 10px;
 	}
 	a {
 		&::after {

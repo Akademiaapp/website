@@ -9,7 +9,7 @@
 	<a href="" class="button hover:bg-muted">Download</a>
 	<a href="" class="button hover:bg-muted">Lær mere</a>
 	<div class="spacer"></div>
-	<a href="" class="button hover:bg-muted">login</a>
+	<a href="" class="button hover:bg-muted">Login</a>
 	<a href="" class="button primary">Sign up</a>
 </nav>
 <slot />
