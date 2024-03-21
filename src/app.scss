@@ -42,3 +42,36 @@
 .button.primary {
 	@apply bg-primary hover:bg-primary-muted text-primary-foreground;
 }
+
+.dropdown {
+	position: relative;
+	&:hover,
+	&:focus {
+		div {
+			display: block;
+		}
+	}
+	div {
+		z-index: 2;
+		a {
+			padding: 0.25rem 0.75rem;
+			width: 100%;
+			font-size: medium !important;
+			text-align: left;
+			display: block;
+		}
+		@apply rounded-md;
+		background-color: white;
+		padding: 0.25rem;
+		text-align: left;
+		top: 100%;
+		left: 0;
+		position: absolute;
+		width: 10rem;
+		display: none;
+
+		&:hover {
+			display: block;
+		}
+	}
+}

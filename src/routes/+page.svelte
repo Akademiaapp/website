@@ -2,7 +2,7 @@
 	import { ArrowDown } from 'lucide-svelte';
 </script>
 
-<div class="header py-32 px-24 flex gap-20 relative">
+<div class="header py-32 px-24 flex gap-20 relative overflow-hidden">
 	<div class="space-y-8">
 		<h1 class="text-7xl font-bold leading-[5rem] max-w-[41rem]">
 			<span class="shadow-blue-700">Opgaver</span>,

@@ -1,13 +1,14 @@
 <script lang="ts">
+	import DownloadDropdown from './../lib/components/DownloadDropdown.svelte';
 	import '../app.scss';
-	import { ExternalLink } from 'lucide-svelte';
+	import { ChevronDown, ExternalLink } from 'lucide-svelte';
 </script>
 
 <nav>
 	<a href="" class="mr-3">
 		<img src="akademia-title.svg" alt="" />
 	</a>
-	<a href="" class="button hover:bg-muted">Download</a>
+	<DownloadDropdown />
 	<a href="" class="button hover:bg-muted">Lær mere</a>
 	<a href="https://github.com/Akademiaapp" target="_blank" class="button hover:bg-muted">
 		Github
@@ -20,8 +21,9 @@
 <slot />
 
 <style lang="scss">
-	a {
-		@apply flex gap-1.5 items-center;
+	a,
+	button > :global(svg) {
+		transform: translateY(0.1rem);
 	}
 
 	img {
@@ -41,11 +43,12 @@
 		gap: 0.7rem;
 	}
 
-	.button {
+	nav > :global(*.button) {
 		font-size: larger;
 		font-weight: 500;
 		padding: 0.25rem 0.75rem;
 		@apply rounded-md;
 		text-align: center;
+		@apply flex gap-1.5 items-center;
 	}
 </style>
