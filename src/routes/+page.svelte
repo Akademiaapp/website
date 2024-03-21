@@ -4,10 +4,10 @@
 
 <div class="header py-40 px-24 space-y-8">
 	<h1 class="text-7xl font-bold leading-[5rem] max-w-[40rem]">
-		Opgaver, Lektier, Noter Alt samlet i én platform
+		<span>Opgaver</span>, <span>Lektier</span>, <span>Noter</span> Alt samlet i én platform
 	</h1>
 	<div class="flex gap-10 items-center text-xl">
-		<button class=" button primary text-xl px-6 py-1 rounded-md"> Prøv det! </button>
+		<button class="button shadow primary text-xl px-6 py-1 rounded-md"> Prøv det! </button>
 		<a href="" class="flex gap-1 whitespace-nowrap relative items-center">
 			Lær mere
 			<ArrowDown size="19"></ArrowDown>
@@ -16,6 +16,10 @@
 </div>
 
 <style lang="scss">
+	span:hover {
+		-webkit-text-stroke: 1px black;
+		-webkit-text-fill-color: white;
+	}
 	a {
 		&::after {
 			content: '';
@@ -33,6 +37,17 @@
 		&:hover::after {
 			transform: scaleX(1);
 			transform-origin: left;
+		}
+	}
+
+	.shadow {
+		box-shadow: rgb(#000, 0.2) -2px 2px 8px;
+
+		transition: all 0.3s;
+
+		&:hover {
+			box-shadow: rgb(#000, 0.2) -4px 6px 10px;
+			transform: translate(2px, -4px);
 		}
 	}
 </style>
