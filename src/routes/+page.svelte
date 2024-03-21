@@ -21,7 +21,7 @@
 	<img
 		src="screenshot.png"
 		alt="Screenshot of Akademia"
-		class="absolute left-[50rem] h-[25rem] top-[50%] -transform -translate-y-[50%] border rounded-md"
+		class="absolute left-[50rem] h-[25rem] top-[50%] -transform -translate-y-[50%] border rounded-md shadow-lg"
 	/>
 </div>
 

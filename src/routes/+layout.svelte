@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.scss';
+	import { ExternalLink } from 'lucide-svelte';
 </script>
 
 <nav>
@@ -8,6 +9,10 @@
 	</a>
 	<a href="" class="button hover:bg-muted">Download</a>
 	<a href="" class="button hover:bg-muted">Lær mere</a>
+	<a href="https://github.com/Akademiaapp" target="_blank" class="button hover:bg-muted">
+		Github
+		<ExternalLink size="19" />
+	</a>
 	<div class="spacer"></div>
 	<a href="" class="button hover:bg-muted">Login</a>
 	<a href="" class="button primary">Sign up</a>
@@ -15,6 +20,10 @@
 <slot />
 
 <style lang="scss">
+	a {
+		@apply flex gap-1.5 items-center;
+	}
+
 	img {
 		/* width: 100%; */
 		height: 3rem;
