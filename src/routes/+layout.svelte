@@ -18,7 +18,9 @@
 	<a href="" class="button hover:bg-muted">Login</a>
 	<a href="" class="button primary">Sign up</a>
 </nav>
-<slot />
+<div class="header py-32 px-24 flex gap-20 relative overflow-hidden w-auto max-w-[100rem] mx-auto">
+	<slot />
+</div>
 
 <style lang="scss">
 	a,

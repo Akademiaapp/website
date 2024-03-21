@@ -39,8 +39,11 @@
 	--destructive-foreground: 0 0% 98%;
 }
 
-.button.primary {
-	@apply bg-primary hover:bg-primary-muted text-primary-foreground;
+.button {
+	cursor: pointer;
+	&.primary {
+		@apply bg-primary hover:bg-primary-muted text-primary-foreground;
+	}
 }
 
 .dropdown {
@@ -73,5 +76,25 @@
 		&:hover {
 			display: block;
 		}
+	}
+}
+
+a.fancy {
+	&::after {
+		content: '';
+		display: block;
+		width: 100%;
+		transform: scaleX(0);
+		height: 1px;
+		position: absolute;
+		background-color: #000;
+		transition: transform 0.3s;
+		transform-origin: right;
+		bottom: 0;
+	}
+
+	&:hover::after {
+		transform: scaleX(1);
+		transform-origin: left;
 	}
 }
