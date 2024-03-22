@@ -29,14 +29,34 @@
 />
 
 <style lang="scss">
-	span {
-		transition: all 300ms;
-	}
-	span:hover {
-		// -webkit-text-stroke: 1px black;
+	// span {
+	// 	transition: all 300ms;
+	// 	position: relative;
+	// 	z-index: 1;
+	// }
 
-		text-shadow: var(--tw-shadow-color) 0 0 10px;
-	}
+	// span:hover::after {
+	// 	transform: scaleX(1);
+	// 	transform-origin: left;
+	// }
+	// span::after {
+	// 	content: '';
+	// 	position: absolute;
+	// 	left: 0;
+	// 	z-index: -1;
+	// 	transform: scaleX(0);
+	// 	transform-origin: right;
+	// 	transition: transform 300ms;
+
+	// 	width: 100%;
+	// 	bottom: 0.4rem;
+	// 	height: 4px;
+	// 	background-color: var(--tw-shadow-color);
+	// 	// -webkit-text-fill-color: white;
+	// 	// -webkit-text-stroke: 1px black;
+
+	// 	// text-shadow: var(--tw-shadow-color) 0 0 10px;
+	// }
 
 	.shadow {
 		box-shadow: rgb(#000, 0.2) -2px 2px 8px;

@@ -51,11 +51,16 @@
 	&:hover,
 	&:focus {
 		div {
-			display: block;
+			opacity: 1;
+			scale: 1;
+			pointer-events: all;
 		}
 	}
 	div {
 		z-index: 2;
+		scale: 0.93;
+		transform-origin: top center;
+		opacity: 0;
 		a {
 			padding: 0.25rem 0.75rem;
 			width: 100%;
@@ -71,10 +76,13 @@
 		left: 0;
 		position: absolute;
 		width: 10rem;
-		display: none;
+		pointer-events: none;
+		transition: all 60ms ease-in-out;
 
 		&:hover {
-			display: block;
+			opacity: 1;
+			scale: 1;
+			pointer-events: all;
 		}
 	}
 }
