@@ -23,8 +23,7 @@
 </div>
 
 <style lang="scss">
-	a,
-	button > :global(svg) {
+	:global(.button svg) {
 		transform: translateY(0.1rem);
 	}
 
