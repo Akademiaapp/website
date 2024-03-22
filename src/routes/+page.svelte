@@ -1,68 +1,76 @@
-
-<div class="hero">
-    <p class="logo">
-        <img width="150" height="150" src="favicon.png" alt="Logo">
-    </p>
-    <h1 class="title">Akademia</h1>
-    <p class="subtitle">
-        En bedre opgave- og noteplatform
-    </p>
-    <p class="subtitle">
-        - ⚠️ - Akademia er under en meget stor refactor, hele systemet er nede et par dage endnu. - ⚠️ -
-    </p>
-    <div class="buttons">
-        <DownloadButton />
-        <SeeMoreButton />
-        <OpenButton />
-    </div>
-    <div class="buttons">
-        <a href="/privacy-policy" >Privacy policy</a>
-        <a href="https://status.akademia.cc/" >Status</a>
-    </div>
-</div>
-
-
-<script lang="ts">
-    import DownloadButton from "$lib/components/DownloadButton.svelte";
-    import SeeMoreButton from "$lib/components/SeeMoreButton.svelte";
-    import OpenButton from "$lib/components/OpenButton.svelte";
+<script>
+	import { ArrowDown } from 'lucide-svelte';
 </script>
 
-<style>
-    .title {
-        margin-bottom: 0;
-        font-size: 3rem;
-        font-weight: 600;
-    }
+<div class="space-y-8">
+	<h1 class="text-7xl font-bold leading-[5rem] max-w-[41rem]">
+		<span class="shadow-blue-700">Opgaver</span>,
+		<span class="shadow-purple-700">Lektier</span>,
+		<span class="shadow-emerald-700">Noter</span>
+		alt samlet i én platform
+	</h1>
+	<div class="flex gap-10 items-center text-xl">
+		<a
+			href="https://app.akademia.cc/register"
+			class="button shadow primary text-xl px-6 py-1 rounded-md"
+		>
+			Prøv det!
+		</a>
+		<a href="" class="fancy flex gap-1 whitespace-nowrap relative items-center">
+			Lær mere
+			<ArrowDown size="19"></ArrowDown>
+		</a>
+	</div>
+</div>
+<img
+	src="screenshot.png"
+	alt="Screenshot of Akademia"
+	class="absolute left-[50rem] h-[25rem] top-[50%] -transform -translate-y-[50%] border rounded-md shadow-lg"
+/>
 
-    .subtitle {
-        margin-top: 0;
-        font-size: 1.5rem;
-        font-weight: 400;
-    }
+<style lang="scss">
+	// span {
+	// 	transition: all 300ms;
+	// 	position: relative;
+	// 	z-index: 1;
+	// }
 
-    .logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 8rem;
-    }
+	// span:hover::after {
+	// 	transform: scaleX(1);
+	// 	transform-origin: left;
+	// }
+	// span::after {
+	// 	content: '';
+	// 	position: absolute;
+	// 	left: 0;
+	// 	z-index: -1;
+	// 	transform: scaleX(0);
+	// 	transform-origin: right;
+	// 	transition: transform 300ms;
 
-    * {
-        font-family: "Manrope", sans-serif;
-    }
+	// 	width: 100%;
+	// 	bottom: 0.4rem;
+	// 	height: 4px;
+	// 	background-color: var(--tw-shadow-color);
+	// 	// -webkit-text-fill-color: white;
+	// 	// -webkit-text-stroke: 1px black;
 
-    .buttons {
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-    }
+	// 	// text-shadow: var(--tw-shadow-color) 0 0 10px;
+	// }
 
-    .hero {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-    }
+	.shadow {
+		box-shadow: rgb(#000, 0.2) -2px 2px 8px;
+
+		transition: all 0.6s;
+
+		&:not(:active):hover {
+			transition: all 0.3s;
+			box-shadow: rgb(#000, 0.2) -4px 6px 10px;
+			transform: translate(2px, -4px);
+		}
+
+		&:active {
+			transition: all 0.15s;
+		}
+	}
 </style>

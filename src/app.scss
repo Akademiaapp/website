@@ -1,1 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	background-color: hsl(0, 0%, 97%);
+	--font-body: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica,
+		'Apple Color Emoji', Arial, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
+	font-family: var(--font-body);
+
+	--background: 0 0% 100%;
+	--foreground: 240 10% 3.9%;
+
+	--muted: 240 4.8% 93.5%;
+	--muted-foreground: 240 3.8% 46.1%;
+
+	--popover: 0 0% 100%;
+	--popover-foreground: 240 10% 3.9%;
+
+	--card: 0 0% 100%;
+	--card-foreground: 240 10% 3.9%;
+
+	--border: 240 5.9% 90%;
+	--input: 240 5.9% 90%;
+
+	--primary: 203 76% 44%;
+	--primary-foreground: 0 0% 98%;
+
+	--primary-muted: 203 76% 48%;
+
+	--secondary: 240 4.8% 95.9%;
+	--secondary-foreground: 240 5.9% 10%;
+
+	--accent: 240 4.8% 95.9%;
+	--accent-foreground: 240 5.9% 10%;
+
+	--destructive: 0 72.2% 50.6%;
+	--destructive-foreground: 0 0% 98%;
+}
+
+.button {
+	cursor: pointer;
+	&.primary {
+		@apply bg-primary hover:bg-primary-muted text-primary-foreground;
+	}
+}
+
+.dropdown {
+	position: relative;
+	&:hover,
+	&:focus {
+		div {
+			opacity: 1;
+			scale: 1;
+			pointer-events: all;
+		}
+	}
+	div {
+		z-index: 2;
+		scale: 0.93;
+		transform-origin: top center;
+		opacity: 0;
+		a {
+			padding: 0.25rem 0.75rem;
+			width: 100%;
+			font-size: medium !important;
+			text-align: left;
+			display: block;
+			@apply rounded-sm;
+		}
+		@apply rounded-md;
+		background-color: white;
+		padding: 0.25rem;
+		text-align: left;
+		top: 100%;
+		left: 0;
+		position: absolute;
+		width: 10rem;
+		pointer-events: none;
+		transition: all 60ms ease-in-out;
+
+		&:hover {
+			opacity: 1;
+			scale: 1;
+			pointer-events: all;
+		}
+	}
+}
+
+a.fancy {
+	&::after {
+		content: '';
+		display: block;
+		width: 100%;
+		transform: scaleX(0);
+		height: 1px;
+		position: absolute;
+		background-color: #000;
+		transition: transform 0.3s;
+		transform-origin: right;
+		bottom: 0;
+	}
+
+	&:hover::after {
+		transform: scaleX(1);
+		transform-origin: left;
+	}
+}
