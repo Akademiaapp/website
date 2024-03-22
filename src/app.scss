@@ -67,6 +67,7 @@
 			font-size: medium !important;
 			text-align: left;
 			display: block;
+			@apply rounded-sm;
 		}
 		@apply rounded-md;
 		background-color: white;
