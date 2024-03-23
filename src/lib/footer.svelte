@@ -40,12 +40,13 @@
 </script>
 
 <footer class="bg-white">
-	<div class="mx-auto w-full max-w-[88rem] p-4 py-6 lg:py-8">
+	<div class="mx-auto w-full max-w-[88rem] px-8 py-6 lg:py-8">
 		<div class="md:flex md:justify-between">
 			<div class="mb-6 md:mb-0">
 				<a href="/" class="flex items-center">
-					<img src="maskable_icon.png" class="h-12 me-3 rounded-lg shadow-md" alt="Akademia Logo" />
-					<span class="self-center text-2xl font-semibold whitespace-nowrap">Akademia</span>
+					<!-- <img src="maskable_icon.png" class="h-12 me-3 rounded-lg shadow-md" alt="Akademia Logo" />
+					<span class="self-center text-2xl font-semibold whitespace-nowrap">Akademia</span> -->
+					<img src="akademia-title.svg" class="h-12" alt="Akademia Logo" />
 				</a>
 			</div>
 			<div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
