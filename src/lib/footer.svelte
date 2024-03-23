@@ -132,3 +132,9 @@
 		</div>
 	</div>
 </footer>
+
+<style>
+	.fancy {
+		padding-bottom: 0.1rem;
+	}
+</style>
