@@ -39,6 +39,10 @@
 	--destructive-foreground: 0 0% 98%;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .button {
 	cursor: pointer;
 	&.primary {

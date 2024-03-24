@@ -10,7 +10,7 @@
 		<img src="akademia-title.svg" alt="" />
 	</a>
 	<DownloadDropdown />
-	<a href="" class="button hover:bg-muted">Lær mere</a>
+	<a href="#more" class="button hover:bg-muted">Lær mere</a>
 	<a href="https://github.com/Akademiaapp" target="_blank" class="button hover:bg-muted">
 		Github
 		<ExternalLink size="19" />

@@ -20,7 +20,7 @@
 			>
 				Prøv det!
 			</a>
-			<a href="" class="fancy flex gap-1 whitespace-nowrap relative items-center">
+			<a href="#more" class="fancy flex gap-1 whitespace-nowrap relative items-center">
 				Lær mere
 				<ArrowDown size="19"></ArrowDown>
 			</a>
@@ -34,7 +34,7 @@
 </div>
 
 <div class="mt-36 px-10 flex flex-col items-center text-center">
-	<h1 class="text-6xl font-bold leading-[1.2em]">Revolutionér din skoledag</h1>
+	<h1 class="text-6xl font-bold leading-[1.2em]" id="more">Revolutionér din skoledag</h1>
 	<p class="text-center max-w-[60rem] text-xl mt-5 font-normal text-muted-foreground">
 		Akademia er ikke bare endnu en platform - det er din ultimative løsning til at forenkle din
 		skole hverdag. Forestil dig en verden, hvor alt hvad du behøver, fra opgaver og lektier til dine
@@ -54,9 +54,7 @@
 			</p>
 		</div>
 		<div class="p-4">
-			l
-			<h2 class="text-lg font-bold">Kaender</h2>
-			<p class="text-muted-foreground"></p>
+			<h2 class="text-lg font-bold">Kalender</h2>
 			<p class="text-muted-foreground">
 				Få et hurtigt overblik over din dag, og planlæg dine aktiviteter effektivt med vores
 				integrerede kalenderfunktion.
