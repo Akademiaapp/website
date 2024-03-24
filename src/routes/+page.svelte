@@ -7,7 +7,7 @@
 		<span class="shadow-blue-700">Opgaver</span>,
 		<span class="shadow-purple-700">Lektier</span>,
 		<span class="shadow-emerald-700">Noter</span>
-		alt samlet i én platform
+		- alt samlet i én platform
 	</h1>
 	<div class="flex gap-10 items-center text-xl">
 		<a
