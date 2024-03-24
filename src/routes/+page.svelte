@@ -54,11 +54,11 @@
 				</p>
 			</div>
 			<div class="p-4">
-				<h2 class="text-xl font-bold">Fil-ladring</h2>
+				<h2 class="text-xl font-bold">Fil-lagring</h2>
 				<p class="text-muted-foreground">
 					Slut med at du ikke kan finde dine filer! Akademia gør det let at gemme dine filer, og
-					hurtigt at finde den igen. derudover det sørger Akademia for at dine dokumenter og noter
-					altid er gemt, så du ikke taber dit arbejde
+					hurtigt at finde den igen. Derudover det sørger Akademia for at dine dokumenter og noter
+					altid er gemt, så du ikke taber dit arbejde.
 				</p>
 			</div>
 			<div class="p-4">
@@ -69,9 +69,9 @@
 				</p>
 			</div>
 			<div class="p-4">
-				<h2 class="text-xl font-bold">Collaboration i Real-time</h2>
+				<h2 class="text-xl font-bold">Samarbejde i Real-time</h2>
 				<p class="text-muted-foreground">
-					Samarbejd gnidningsløst med dine med-elever med Akademias real-time samarbejdsværktøjer.
+					Samarbejd hurtigt og nemt med dine med-elever med Akademias real-time samarbejdsværktøjer.
 					Del idéer og rediger dokumenter sammen uden forsinkelser. Med Akademia bliver teamwork en
 					leg!
 				</p>
@@ -88,7 +88,7 @@
 				<p class="text-muted-foreground">
 					Rediger dine dokumenter direkte i Akademia med vores indbyggede editor. Akademias editor
 					simplificerer ikke kun din arbejdsprocess, men gør det også drastisk hurtigere at åbne
-					dokumenter
+					dokumenter.
 				</p>
 			</div>
 		</div>

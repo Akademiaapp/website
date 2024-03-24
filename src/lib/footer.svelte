@@ -95,7 +95,7 @@
 		<div class="sm:flex sm:items-center sm:justify-between">
 			<span class="text-sm text-gray-500 sm:text-center"
 				>© {new Date().getFullYear()}
-				<a href="https://akademia.cc/" class="hover:underline">Akademia™</a>. All Rights Reserved.
+				<a href="https://akademia.cc/" class="hover:underline">Akademia</a>. All Rights Reserved.
 			</span>
 			<div class="flex mt-4 sm:justify-center sm:mt-0">
 				<!-- <a href="#" class="text-gray-500 hover:text-gray-900">
