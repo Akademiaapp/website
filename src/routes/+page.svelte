@@ -77,7 +77,7 @@
 		</div>
 	</div>
 </div>
-<div class="ml-14">
+<div class="ml-14 flex justify-center">
 	<ContactForm />
 </div>
 
