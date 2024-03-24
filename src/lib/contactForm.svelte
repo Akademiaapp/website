@@ -24,5 +24,5 @@
     <input type="hidden" name="subject" value="Contact us from - akademia.cc" />
     <input type="hidden" name="replyTo" value="@">
     <input type="hidden" name="redirectTo" value="https://akademia.cc/">
-    <Button type="submit" class="text-base">Send</Button>
+    <Button type="submit" class="text-base">Send besked</Button>
 </form>
