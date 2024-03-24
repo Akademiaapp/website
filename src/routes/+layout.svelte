@@ -19,8 +19,8 @@
 	<a href="https://app.akademia.cc/" class="button hover:bg-muted">Login</a>
 	<a href="https://app.akademia.cc/register" class="button primary">Sign up</a>
 </nav>
-<div class="min-h-[95vh] max-w-[100rem] mx-auto">
-	<div class="py-32 px-10 sm:px-24 flex gap-20 flex-col relative overflow-hidden w-auto">
+<div class="min-h-[95vh] mx-auto">
+	<div class="py-32 flex gap-20 flex-col mx-auto relative overflow-hidden w-auto">
 		<slot />
 	</div>
 </div>

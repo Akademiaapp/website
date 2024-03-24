@@ -3,8 +3,8 @@
 	import { ArrowDown } from 'lucide-svelte';
 </script>
 
-<div class="hero relative">
-	<div class="space-y-8">
+<div class="hero relative mb-24 w-full sm:px-24">
+	<div class="space-y-8 relative mx-auto max-w-[90rem]">
 		<h1
 			class="text-center sm:text-left text-7xl md:text-7xl font-bold leading-[1.2em] max-w-[41rem]"
 		>
@@ -25,16 +25,19 @@
 				<ArrowDown size="19"></ArrowDown>
 			</a>
 		</div>
+		<img
+			src="screenshot.png"
+			alt="Screenshot of Akademia"
+			class="absolute left-[45rem] h-[25rem] top-[40%] -transform -translate-y-[50%] border rounded-md shadow-lg"
+		/>
 	</div>
-	<img
-		src="screenshot.png"
-		alt="Screenshot of Akademia"
-		class="absolute left-[45rem] h-[25rem] top-[50%] -transform -translate-y-[50%] border rounded-md shadow-lg"
-	/>
 </div>
 
-<div class="mt-36 px-10 flex flex-col items-center text-center">
-	<h1 class="text-6xl font-bold leading-[1.2em]" id="more">Revolutionér din skoledag</h1>
+<div
+	class="py-16 px-10 sm:px-36 border-t border-b flex flex-col items-center text-center scroll-m-16 bg-white"
+	id="more"
+>
+	<h1 class="text-6xl font-bold leading-[1.2em]">Revolutionér din skoledag</h1>
 	<p class="text-center max-w-[60rem] text-xl mt-5 font-normal text-muted-foreground">
 		Akademia er ikke bare endnu en platform - det er din ultimative løsning til at forenkle din
 		skole hverdag. Forestil dig en verden, hvor alt hvad du behøver, fra opgaver og lektier til dine
