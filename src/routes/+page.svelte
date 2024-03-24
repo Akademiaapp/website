@@ -34,8 +34,8 @@
 </div>
 
 <div class="mt-36 px-10 flex flex-col items-center text-center">
-	<h1 class="text-6xl font-bold leading-[1.2em]">Hurtigere arbejdsprocess</h1>
-	<p class="text-center max-w-[60rem] text-2xl mt-5 font-normal text-muted-foreground">
+	<h1 class="text-6xl font-bold leading-[1.2em]">Revolutionér din skoledag</h1>
+	<p class="text-center max-w-[60rem] text-xl mt-5 font-normal text-muted-foreground">
 		Akademia er ikke bare endnu en platform - det er din ultimative løsning til at forenkle din
 		skole hverdag. Forestil dig en verden, hvor alt hvad du behøver, fra opgaver og lektier til dine
 		vigtigste noter, er samlet ét sted.
@@ -54,7 +54,8 @@
 			</p>
 		</div>
 		<div class="p-4">
-			<h2 class="text-lg font-bold">Kalender</h2>
+			l
+			<h2 class="text-lg font-bold">Kaender</h2>
 			<p class="text-muted-foreground"></p>
 			<p class="text-muted-foreground">
 				Få et hurtigt overblik over din dag, og planlæg dine aktiviteter effektivt med vores
@@ -77,14 +78,10 @@
 			<p class="text-muted-foreground">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		</div>
 	</div>
-	<img
-		src="screenshot.png"
-		alt="Screenshot of Akademia"
-		class="h-[25rem] ml-10 border rounded-md shadow-lg"
-	/>
 </div>
-
-<ContactForm />
+<div class="ml-14">
+	<ContactForm />
+</div>
 
 <style lang="scss">
 	// span {
