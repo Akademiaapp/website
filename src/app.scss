@@ -89,6 +89,7 @@
 }
 
 a.fancy {
+	position: relative;
 	&::after {
 		content: '';
 		display: block;
@@ -96,13 +97,19 @@ a.fancy {
 		transform: scaleX(0);
 		height: 1px;
 		position: absolute;
-		background-color: #000;
-		transition: transform 0.3s;
+		color: inherit;
+		background-color: currentColor;
+		transition:
+			transform 0.3s 0.2s,
+			transform-origin 0.2s 0s;
 		transform-origin: right;
 		bottom: 0;
 	}
 
 	&:hover::after {
+		transition:
+			transform 0.3s 0s,
+			transform-origin 0s 0s;
 		transform: scaleX(1);
 		transform-origin: left;
 	}

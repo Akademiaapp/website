@@ -19,14 +19,15 @@
 	<a href="https://app.akademia.cc/" class="button hover:bg-muted">Login</a>
 	<a href="https://app.akademia.cc/register" class="button primary">Sign up</a>
 </nav>
-<div class="header py-32 px-24 flex gap-20 relative overflow-hidden w-auto max-w-[100rem] mx-auto min-h-[95vh] flex-col">
-	<slot />
+<div class="min-h-[95vh] max-w-[100rem] mx-auto">
+	<div class="header py-32 px-24 flex gap-20 relative overflow-hidden w-auto">
+		<slot />
+	</div>
 </div>
 
 <Footer />
 
 <style lang="scss">
-
 	img {
 		/* width: 100%; */
 		height: 3rem;
