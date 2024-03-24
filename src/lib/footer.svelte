@@ -43,11 +43,14 @@
 	<div class="mx-auto w-full max-w-[88rem] px-8 py-6 lg:py-8">
 		<div class="md:flex md:justify-between">
 			<div class="mb-6 md:mb-0">
-				<a href="/" class="flex items-center">
+				<a href="/" class="flex items-center w-44">
 					<!-- <img src="maskable_icon.png" class="h-12 me-3 rounded-lg shadow-md" alt="Akademia Logo" />
 					<span class="self-center text-2xl font-semibold whitespace-nowrap">Akademia</span> -->
 					<img src="akademia-title.svg" class="h-12" alt="Akademia Logo" />
 				</a>
+				<p class="opacity-50 w-[32rem] pt-4">
+					Akademia er den ultimative platform til effektiv opgavehåndtering, realtidskollaboration og filadministration i akademiske miljøer. Det revolutionerer den måde, studerende, undervisere og forskere arbejder og samarbejder på, og fremmer produktivitet, kreativitet og læring på tværs af alle niveauer af uddannelse og forskning.
+				</p>
 			</div>
 			<div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
 				<div>
