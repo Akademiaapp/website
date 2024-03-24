@@ -8,7 +8,7 @@
 	<form
 		action="https://api.staticforms.xyz/submit"
 		method="post"
-		class="flex h-full flex-col gap-4 max-w-lg"
+		class="flex h-full flex-col gap-4 max-w-[30rem]"
 	>
 		<h1 class="font-bold text-4xl">Kontakt os</h1>
 		<p class="">
