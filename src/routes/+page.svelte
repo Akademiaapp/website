@@ -94,24 +94,26 @@
 		</div>
 	</div>
 </div>
-<div class="ml-14 flex justify-center gap-12">
-	<div class="right-0 top-0 w-1/3 rounded-xl p-10 gap-3 flex flex-col">
-		<h2 class="text-4xl font-semibold">Om os</h2>
-		<p>
-			Vi er to unge udviklere som selv er opvokset med et skolesystem, som vi mener kan og skal
-			forbedres. En af de ting som skabte de største frustrationer for os, vores medelever og
-			undervisere, var hvordan de nuværende platforme hånvterer opgaver og lektier. Det var altid en
-			lang og kompliceret process bare for at åbne en opave. Derfor har vi skabt Akademia, som er en
-			platform, der er skabt til at gøre din skoledag så nem og effektiv som muligt.
-		</p>
-		<img
-			src="https://cdn.discordapp.com/attachments/1031585234879258654/1221583413228601414/1000_F_399847626_pQAGCC4WoeXKgQgrHwd7Hrp88ruG5DIl.png?ex=66131b35&is=6600a635&hm=a1bb8c405ef8ba824ae9240262d66bf8907558d85b6e55e7f1d6d034680973f3&"
-			alt="Team"
-			class="rounded-lg shadow-lg"
-		/>
+<div class="mx-auto">
+	<div class="flex -mx-5 justify-center flex-col lg:flex-row max-w-[110rem] px-10 sm:px-36 gap-12">
+		<div class="right-0 top-0 flex-1 rounded-xl p-10 gap-3 flex flex-col">
+			<h2 class="text-4xl font-semibold">Om os</h2>
+			<p>
+				Vi er to unge udviklere som selv er opvokset med et skolesystem, som vi mener kan og skal
+				forbedres. En af de ting som skabte de største frustrationer for os, vores medelever og
+				undervisere, var hvordan de nuværende platforme hånvterer opgaver og lektier. Det var altid
+				en lang og kompliceret process bare for at åbne en opave. Derfor har vi skabt Akademia, som
+				er en platform, der er skabt til at gøre din skoledag så nem og effektiv som muligt.
+			</p>
+			<img
+				src="https://cdn.discordapp.com/attachments/1031585234879258654/1221583413228601414/1000_F_399847626_pQAGCC4WoeXKgQgrHwd7Hrp88ruG5DIl.png?ex=66131b35&is=6600a635&hm=a1bb8c405ef8ba824ae9240262d66bf8907558d85b6e55e7f1d6d034680973f3&"
+				alt="Team"
+				class="rounded-lg shadow-lg"
+			/>
+		</div>
+		<div class="border-l" />
+		<ContactForm />
 	</div>
-	<div class="border-l" />
-	<ContactForm />
 </div>
 
 <style lang="scss">
