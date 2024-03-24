@@ -20,7 +20,7 @@
 	<a href="https://app.akademia.cc/register" class="button primary">Sign up</a>
 </nav>
 <div class="min-h-[95vh] max-w-[100rem] mx-auto">
-	<div class="header py-32 px-24 flex gap-20 relative overflow-hidden w-auto flex-col">
+	<div class="py-32 px-10 sm:px-24 flex gap-20 flex-col relative overflow-hidden w-auto">
 		<slot />
 	</div>
 </div>
