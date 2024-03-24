@@ -5,14 +5,14 @@
 </script>
 
 <div class="p-10">
-    <form action="https://api.staticforms.xyz/submit" method="post" class="grid gap-3 max-w-lg">
+    <form action="https://api.staticforms.xyz/submit" method="post" class="grid gap-4 max-w-lg">
         <h1 class="font-bold text-4xl">
             Kontakt os
         </h1>
         <p class="">
             Har du spørgsmål, ris eller ros? Så tøv ikke med at kontakte os! Vi vil gøre vores bedste for at besvare din henvendelse hurtigst muligt.
         </p>
-        <div class="flex flex-row gap-3">
+        <div class="flex flex-row gap-4">
             <Input type="text" name="frist_name" placeholder="Fornavn" />
             <Input type="text" name="last_name" placeholder="Efternavn" />
         </div>
@@ -23,6 +23,6 @@
         <input type="hidden" name="subject" value="Contact us from - akademia.cc" />
         <input type="hidden" name="replyTo" value="@">
         <input type="hidden" name="redirectTo" value="https://akademia.cc/">
-        <Button type="submit" class="text-base w-48">Send besked</Button>
+        <Button type="submit" class="text-base w-48 h-12">Send besked</Button>
     </form>
 </div>
