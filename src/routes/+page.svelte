@@ -86,7 +86,16 @@
 		</div>
 	</div>
 </div>
-<div class="ml-14 flex justify-center">
+<div class="ml-14 flex justify-center gap-12">
+	<div class="right-0 top-0 w-1/3 rounded-xl p-10 gap-3 flex flex-col">
+		<h2 class="text-4xl font-semibold">Om os</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+			labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+		</p>
+		<img src="https://cdn.discordapp.com/attachments/1031585234879258654/1221583413228601414/1000_F_399847626_pQAGCC4WoeXKgQgrHwd7Hrp88ruG5DIl.png?ex=66131b35&is=6600a635&hm=a1bb8c405ef8ba824ae9240262d66bf8907558d85b6e55e7f1d6d034680973f3&" alt="Team" class="rounded-lg shadow-lg" />
+	</div>
+	<div class="border-l"/>
 	<ContactForm />
 </div>
 
