@@ -33,50 +33,56 @@
 	</div>
 </div>
 
-<div
-	class="py-16 px-10 sm:px-36 border-t border-b flex flex-col items-center text-center scroll-m-16 bg-white"
-	id="more"
->
-	<h1 class="text-6xl font-bold leading-[1.2em]">Revolutionér din skoledag</h1>
-	<p class="text-center max-w-[60rem] text-xl mt-5 font-normal text-muted-foreground">
-		Akademia er ikke bare endnu en platform - det er din ultimative løsning til at forenkle din
-		skole hverdag. Forestil dig en verden, hvor alt hvad du behøver, fra opgaver og lektier til dine
-		vigtigste noter, er samlet ét sted.
-	</p>
+<div class=" py-24 px-10 sm:px-36 border-t border-b text-center bg-white" id="more">
+	<div class="mx-auto flex flex-col items-center max-w-[90rem]">
+		<h1 class="text-6xl font-bold leading-[1.2em]">Revolutionér din skoledag</h1>
+		<p class="text-center max-w-[60rem] text-xl mt-5 font-normal text-muted-foreground">
+			Akademia er ikke bare endnu en platform - det er din ultimative løsning til at forenkle din
+			skole hverdag. Forestil dig en verden, hvor alt hvad du behøver, fra opgaver og lektier til
+			dine vigtigste noter, er samlet ét sted.
+		</p>
 
-	<div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 w-full mt-5 text-left">
-		<div class="p-4">
-			<h2 class="text-lg font-bold">Item 1</h2>
-			<p class="text-muted-foreground">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</div>
-		<div class="p-4">
-			<h2 class="text-lg font-bold">Filstrukturering</h2>
-			<p class="text-muted-foreground">
-				Slut med at du ikke kan finde dine filer! Akademia gør det let at gemme dine filer, og
-				hurtigt at finde den igen.
-			</p>
-		</div>
-		<div class="p-4">
-			<h2 class="text-lg font-bold">Kalender</h2>
-			<p class="text-muted-foreground">
-				Få et hurtigt overblik over din dag, og planlæg dine aktiviteter effektivt med vores
-				integrerede kalenderfunktion.
-			</p>
-		</div>
-		<div class="p-4">
-			<h2 class="text-lg font-bold">Collaboration i Real-time</h2>
-			<p class="text-muted-foreground">
-				Samarbejd gnidningsløst med dine med-elever med Akademias real-time samarbejdsværktøjer. Del
-				idéer og rediger dokumenter sammen uden forsinkelser. Med Akademia bliver teamwork en leg!
-			</p>
-		</div>
-		<div class="p-4">
-			<h2 class="text-lg font-bold">Item 1</h2>
-			<p class="text-muted-foreground">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</div>
-		<div class="p-4">
-			<h2 class="text-lg font-bold">Item 1</h2>
-			<p class="text-muted-foreground">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 w-full mt-5 text-left">
+			<div class="p-4">
+				<h2 class="text-lg font-bold">Item 1</h2>
+				<p class="text-muted-foreground">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</p>
+			</div>
+			<div class="p-4">
+				<h2 class="text-lg font-bold">Filstrukturering</h2>
+				<p class="text-muted-foreground">
+					Slut med at du ikke kan finde dine filer! Akademia gør det let at gemme dine filer, og
+					hurtigt at finde den igen.
+				</p>
+			</div>
+			<div class="p-4">
+				<h2 class="text-lg font-bold">Kalender</h2>
+				<p class="text-muted-foreground">
+					Få et hurtigt overblik over din dag, og planlæg dine aktiviteter effektivt med vores
+					integrerede kalenderfunktion.
+				</p>
+			</div>
+			<div class="p-4">
+				<h2 class="text-lg font-bold">Collaboration i Real-time</h2>
+				<p class="text-muted-foreground">
+					Samarbejd gnidningsløst med dine med-elever med Akademias real-time samarbejdsværktøjer.
+					Del idéer og rediger dokumenter sammen uden forsinkelser. Med Akademia bliver teamwork en
+					leg!
+				</p>
+			</div>
+			<div class="p-4">
+				<h2 class="text-lg font-bold">Item 1</h2>
+				<p class="text-muted-foreground">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</p>
+			</div>
+			<div class="p-4">
+				<h2 class="text-lg font-bold">Item 1</h2>
+				<p class="text-muted-foreground">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</p>
+			</div>
 		</div>
 	</div>
 </div>
