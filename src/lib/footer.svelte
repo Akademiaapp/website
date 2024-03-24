@@ -39,7 +39,7 @@
 	});
 </script>
 
-<footer class="bg-white">
+<footer class="bg-white border-t">
 	<div class="mx-auto w-full max-w-[88rem] px-8 py-6 lg:py-8">
 		<div class="md:flex md:justify-between">
 			<div class="mb-6 md:mb-0">
