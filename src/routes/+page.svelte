@@ -3,7 +3,7 @@
 	import { ArrowDown } from 'lucide-svelte';
 </script>
 
-<div class="hero relative mb-24 w-full sm:px-24">
+<div class="hero relative py-12 mb-24 w-full sm:px-24">
 	<div class="space-y-8 relative mx-auto max-w-[90rem]">
 		<h1
 			class="text-center sm:text-left text-7xl md:text-7xl font-bold leading-[1.2em] max-w-[41rem]"
