@@ -8,7 +8,7 @@
 	<form
 		action="https://api.staticforms.xyz/submit"
 		method="post"
-		class="flex flex-col gap-4 max-w-lg"
+		class="flex h-full flex-col gap-4 max-w-lg"
 	>
 		<h1 class="font-bold text-4xl">Kontakt os</h1>
 		<p class="">
@@ -20,7 +20,7 @@
 			<Input type="text" name="last_name" placeholder="Efternavn" />
 		</div>
 		<Input type="email" name="email" placeholder="Email" />
-		<Textarea name="message" placeholder="Besked" class="h-32" />
+		<Textarea name="message" placeholder="Besked" class="min-h-20 flex-1" />
 		<Input type="text" name="honeypot" style="display:none" />
 		<input type="hidden" name="accessKey" value="530612c8-1297-4f59-a4cf-d88352ffb570" />
 		<input type="hidden" name="subject" value="Contact us from - akademia.cc" />
