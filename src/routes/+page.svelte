@@ -4,12 +4,12 @@
 </script>
 
 <div
-	class="hero relative py-12 h-[calc(90vh-24rem)] min-h-[20rem] mb-24 w-full sm:px-24 grid place-items-center"
+	class="hero relative py-12 h-[calc(90vh-24rem)] min-h-[20rem] px-8 mb-24 w-full sm:px-24 grid place-items-center"
 >
 	<div class="w-full">
 		<div class="space-y-8 relative m-auto max-w-[90rem]">
 			<h1
-				class="text-center sm:text-left text-7xl md:text-7xl font-bold leading-[1.2em] max-w-[41rem]"
+				class="text-center sm:text-left text-6xl md:text-7xl font-bold leading-[1.2em] max-w-[41rem]"
 			>
 				<span class="shadow-blue-700">Opgaver</span>,
 				<span class="shadow-purple-700">Lektier</span>,
@@ -37,9 +37,9 @@
 	</div>
 </div>
 
-<div class=" py-24 px-10 sm:px-36 border-t border-b text-center bg-white" id="more">
+<div class=" py-24 px-6 sm:px-36 border-t border-b text-center bg-white" id="more">
 	<div class="mx-auto flex flex-col items-center max-w-[90rem]">
-		<h1 class="text-6xl font-bold leading-[1.2em]">Revolutionér din skoledag</h1>
+		<h1 class="text-5xl sm:text-6xl font-bold leading-[1.2em]">Revolutionér din skoledag</h1>
 		<p class="text-center max-w-[60rem] text-xl mt-5 font-normal text-muted-foreground">
 			Akademia er ikke bare endnu en platform - det er din ultimative løsning til at forenkle din
 			skoledag. Forestil dig en verden, hvor alt hvad du behøver, fra opgaver og lektier til dine
@@ -95,7 +95,7 @@
 	</div>
 </div>
 <div class="mx-auto">
-	<div class="flex -mx-5 justify-center flex-col lg:flex-row max-w-[110rem] px-10 sm:px-36 gap-12">
+	<div class="flex -mx-5 justify-center flex-col lg:flex-row max-w-[110rem] px-6 sm:px-36 gap-12">
 		<div class="right-0 top-0 flex-1 rounded-xl p-10 gap-3 flex flex-col">
 			<h2 class="text-4xl font-semibold">Om os</h2>
 			<p>
