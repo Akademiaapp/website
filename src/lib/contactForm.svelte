@@ -5,7 +5,7 @@
 </script>
 
 <div class="p-10">
-    <form action="https://api.staticforms.xyz/submit" method="post" class="grid gap-4 max-w-lg">
+    <form action="https://api.staticforms.xyz/submit" method="post" class="flex flex-col gap-4 max-w-lg">
         <h1 class="font-bold text-4xl">
             Kontakt os
         </h1>
