@@ -117,6 +117,7 @@
 		<div class="border-l" />
 		<ContactForm />
 	</div>
+	<div class="h-5 sm:h-0"></div>
 </div>
 
 <style lang="scss">
