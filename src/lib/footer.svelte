@@ -50,9 +50,9 @@
 				</a>
 				<p class="opacity-50 max-w-[32rem] pt-4">
 					Akademia er den ultimative platform til effektiv opgavehåndtering, realtidskollaboration
-					og filadministration i akademiske miljøer. Det revolutionerer den måde, elever,
-					undervisere forskere arbejder og samarbejder på, og fremmer produktivitet, kreativitet og
-					læring på tværs af alle niveauer af uddannelse.
+					og filadministration i akademiske miljøer. Det revolutionerer den måde, elever og
+					undervisere arbejder og samarbejder på, og fremmer produktivitet, kreativitet
+					og læring på tværs af alle niveauer af uddannelse og forskning.
 				</p>
 			</div>
 			<div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -87,9 +87,9 @@
 						<li class="mb-4">
 							<a href="/privacy-policy" class="fancy">Privacy Policy</a>
 						</li>
-						<li>
+						<!-- <li>
 							<a href="/terms" class="fancy">Terms &amp; Conditions</a>
-						</li>
+						</li> -->
 					</ul>
 				</div>
 			</div>
