@@ -22,7 +22,7 @@
 	</div>
 </nav>
 <div class="min-h-[95vh] mx-auto">
-	<div class="py-12 flex gap-20 flex-col mx-auto relative overflow-hidden w-auto">
+	<div class="sm:py-12 flex sm:gap-20 flex-col mx-auto relative overflow-hidden w-auto">
 		<slot />
 	</div>
 </div>

@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="hero relative py-12 sm:h-[calc(90vh-15rem)] min-h-[20rem] px-8 w-full my-5 sm:px-24 grid place-items-center"
+	class="hero relative py-12 min-h-[calc(90vh-5rem)] sm:h-[calc(90vh-15rem)] sm:min-h-[20rem] px-8 w-full my-5 sm:px-24 grid place-items-center"
 >
 	<div class="w-full">
 		<div class="space-y-8 relative m-auto max-w-[90rem]">
@@ -117,6 +117,7 @@
 		<div class="border-l" />
 		<ContactForm />
 	</div>
+	<div class="h-5 sm:h-0"></div>
 </div>
 
 <style lang="scss">
