@@ -4,22 +4,27 @@
 </script>
 
 <div
-	class="hero relative py-12 h-[calc(90vh-24rem)] min-h-[20rem] px-8 mb-24 w-full sm:px-24 grid place-items-center"
+	class="hero relative py-12 sm:h-[calc(90vh-15rem)] min-h-[20rem] px-8 w-full my-5 sm:px-24 grid place-items-center"
 >
 	<div class="w-full">
 		<div class="space-y-8 relative m-auto max-w-[90rem]">
 			<h1
-				class="text-center sm:text-left text-6xl md:text-7xl font-bold leading-[1.2em] max-w-[41rem]"
+				class="text-center sm:text-left text-[2.5rem] sm:text-6xl md:text-7xl font-bold leading-[1.2em] max-w-[41rem]"
 			>
-				<span class="shadow-blue-700">Opgaver</span>,
-				<span class="shadow-purple-700">Lektier</span>,
-				<span class="shadow-emerald-700">Noter</span>
+				<span class="">Opgaver</span>,
+				<span class="">Lektier</span>,
+				<span class="">Noter</span>
 				- alt samlet i én platform
 			</h1>
+			<img
+				src="screenshot.png"
+				alt="Screenshot of Akademia"
+				class="mb-auto border rounded-md shadow-lg sm:hidden"
+			/>
 			<div class="flex gap-10 justify-center sm:justify-start items-center text-xl">
 				<a
 					href="https://app.akademia.cc/register"
-					class="button shadow primary text-xl px-6 py-1.5 rounded-md"
+					class="button hidden sm:block shadow primary text-xl px-6 py-1.5 rounded-md"
 				>
 					Prøv det!
 				</a>
@@ -95,7 +100,9 @@
 	</div>
 </div>
 <div class="mx-auto">
-	<div class="flex -mx-5 justify-center flex-col lg:flex-row max-w-[110rem] px-6 sm:px-36 gap-12">
+	<div
+		class="flex -mx-5 justify-center flex-col lg:flex-row max-w-[110rem] px-6 sm:px-36 lg:gap-12"
+	>
 		<div class="right-0 top-0 flex-1 rounded-xl p-10 gap-3 flex flex-col">
 			<h2 class="text-4xl font-semibold">Om os</h2>
 			<p>
@@ -105,11 +112,7 @@
 				en lang og kompliceret process bare for at åbne en opave. Derfor har vi skabt Akademia, som
 				er en platform, der er skabt til at gøre din skoledag så nem og effektiv som muligt.
 			</p>
-			<img
-				src="https://cdn.discordapp.com/attachments/1031585234879258654/1221583413228601414/1000_F_399847626_pQAGCC4WoeXKgQgrHwd7Hrp88ruG5DIl.png?ex=66131b35&is=6600a635&hm=a1bb8c405ef8ba824ae9240262d66bf8907558d85b6e55e7f1d6d034680973f3&"
-				alt="Team"
-				class="rounded-lg shadow-lg"
-			/>
+			<img src="team.jpg" alt="Team" class="rounded-lg shadow-lg" />
 		</div>
 		<div class="border-l" />
 		<ContactForm />
