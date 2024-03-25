@@ -108,7 +108,7 @@
 			<p>
 				Vi er to unge udviklere som selv er opvokset med et skolesystem, som vi mener kan og skal
 				forbedres. En af de ting som skabte de største frustrationer for os, vores medelever og
-				undervisere, var hvordan de nuværende platforme hånvterer opgaver og lektier. Det var altid
+				undervisere, var hvordan de nuværende platforme håndterer opgaver og lektier. Det var altid
 				en lang og kompliceret process bare for at åbne en opave. Derfor har vi skabt Akademia, som
 				er en platform, der er skabt til at gøre din skoledag så nem og effektiv som muligt.
 			</p>
