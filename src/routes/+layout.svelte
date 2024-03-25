@@ -5,7 +5,7 @@
 	import Footer from '$lib/footer.svelte';
 </script>
 
-<nav>
+<nav class="px-3 md:px-8 py-3">
 	<a href="/" class="mr-3">
 		<img src="akademia-title.svg" alt="" />
 	</a>
@@ -43,7 +43,7 @@
 		display: flex;
 
 		align-items: center;
-		padding: 0.75rem 2rem;
+
 		gap: 0.7rem;
 	}
 
