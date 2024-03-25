@@ -48,8 +48,11 @@
 					<span class="self-center text-2xl font-semibold whitespace-nowrap">Akademia</span> -->
 					<img src="akademia-title.svg" class="h-12" alt="Akademia Logo" />
 				</a>
-				<p class="opacity-50 w-[32rem] pt-4">
-					Akademia er den ultimative platform til effektiv opgavehåndtering, realtidskollaboration og filadministration i akademiske miljøer. Det revolutionerer den måde, studerende, undervisere og forskere arbejder og samarbejder på, og fremmer produktivitet, kreativitet og læring på tværs af alle niveauer af uddannelse og forskning.
+				<p class="opacity-50 max-w-[32rem] pt-4">
+					Akademia er den ultimative platform til effektiv opgavehåndtering, realtidskollaboration
+					og filadministration i akademiske miljøer. Det revolutionerer den måde, studerende,
+					undervisere og forskere arbejder og samarbejder på, og fremmer produktivitet, kreativitet
+					og læring på tværs af alle niveauer af uddannelse og forskning.
 				</p>
 			</div>
 			<div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

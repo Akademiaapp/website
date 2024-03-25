@@ -9,12 +9,14 @@
 	<a href="/" class="mr-3">
 		<img src="akademia-title.svg" alt="" />
 	</a>
-	<DownloadDropdown />
-	<a href="#more" class="button hover:bg-muted">Lær mere</a>
-	<a href="https://github.com/Akademiaapp" target="_blank" class="button hover:bg-muted">
-		Github
-		<ExternalLink size="19" />
-	</a>
+	<div class="hidden md:flex">
+		<DownloadDropdown />
+		<a href="#more" class="button hover:bg-muted">Lær mere</a>
+		<a href="https://github.com/Akademiaapp" target="_blank" class="button hover:bg-muted">
+			Github
+			<ExternalLink size="19" />
+		</a>
+	</div>
 	<div class="spacer"></div>
 	<a href="https://app.akademia.cc/" class="button hover:bg-muted">Login</a>
 	<a href="https://app.akademia.cc/register" class="button primary">Sign up</a>
@@ -45,6 +47,7 @@
 		gap: 0.7rem;
 	}
 
+	nav > * :global(*.button),
 	nav > :global(*.button) {
 		font-size: larger;
 		font-weight: 500;
