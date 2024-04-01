@@ -51,8 +51,8 @@
 				<p class="opacity-50 max-w-[32rem] pt-4">
 					Akademia er den ultimative platform til effektiv opgavehåndtering, realtidskollaboration
 					og filadministration i akademiske miljøer. Det revolutionerer den måde, elever og
-					undervisere arbejder og samarbejder på, og fremmer produktivitet, kreativitet
-					og læring på tværs af alle niveauer af uddannelse og forskning.
+					undervisere arbejder og samarbejder på, og fremmer produktivitet, kreativitet og læring på
+					tværs af alle niveauer af uddannelser.
 				</p>
 			</div>
 			<div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
