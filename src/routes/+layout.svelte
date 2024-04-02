@@ -7,7 +7,7 @@
 
 <nav class="px-3 md:px-8 py-3">
 	<a href="/" class="mr-3">
-		<img src="akademia-title.svg" alt="" />
+		<img src="/akademia-title.svg" alt="" />
 	</a>
 	<div class="hidden md:flex w-full gap-2">
 		<DownloadDropdown />
@@ -17,8 +17,8 @@
 			<ExternalLink size="19" />
 		</a>
 		<div class="spacer"></div>
-		<a href="https://app.akademia.cc/" class="button hover:bg-muted">Login</a>
-		<a href="https://app.akademia.cc/register" class="button primary">Sign up</a>
+		<a href="/app" class="button hover:bg-muted">Login</a>
+		<a href="app/signup" class="button primary">Sign up</a>
 	</div>
 </nav>
 <div class="min-h-[95vh] mx-auto">

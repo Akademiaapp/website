@@ -46,7 +46,7 @@
 				<a href="/" class="flex items-center w-44">
 					<!-- <img src="maskable_icon.png" class="h-12 me-3 rounded-lg shadow-md" alt="Akademia Logo" />
 					<span class="self-center text-2xl font-semibold whitespace-nowrap">Akademia</span> -->
-					<img src="akademia-title.svg" class="h-12" alt="Akademia Logo" />
+					<img src="/akademia-title.svg" class="h-12" alt="Akademia Logo" />
 				</a>
 				<p class="opacity-50 max-w-[32rem] pt-4">
 					Akademia er den ultimative platform til effektiv opgavehåndtering, realtidskollaboration
