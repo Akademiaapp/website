@@ -1,5 +1,6 @@
 <script>
-	import ContactForm from '$lib/contactForm.svelte';
+	import { Badge } from '$lib/components/ui/badge';
+import ContactForm from '$lib/contactForm.svelte';
 	import { ArrowDown } from 'lucide-svelte';
 </script>
 
@@ -8,6 +9,7 @@
 >
 	<div class="w-full">
 		<div class="space-y-8 relative m-auto max-w-[90rem]">
+			<Badge class="text-lg">Beta</Badge>
 			<h1
 				class="text-center sm:text-left text-[2.5rem] sm:text-6xl md:text-7xl font-bold leading-[1.2em] max-w-[41rem]"
 			>
