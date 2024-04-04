@@ -19,8 +19,22 @@
 				goto('https://app.akademia.cc');
 			}
 		} catch (error) {
-			state = 'error';
-			console.error(error);
+			try {
+				const response = await fetch(
+					'https://akademia-api.arctix.dev/public/schools/0aad6f5f-3f49-41a4-8b1e-19780ddd6774/groups'
+				);
+				const data = await response.json();
+				state = 'loaded';
+				console.log($page.url.pathname);
+				if ($page.url.pathname === '/app/signup') {
+					goto('https://akademia-webapp.arctix.dev/register');
+				} else {
+					goto('https://akademia-webapp.arctix.dev/');
+				}
+			} catch (error) {
+				state = 'error';
+				console.error(error);
+			}
 		}
 	});
 </script>
