@@ -8,7 +8,7 @@
 	onMount(async () => {
 		try {
 			const response = await fetch(
-				'https://api.akademia.cc/public/schools/0aad6f5f-3f49-41a4-8b1e-19780ddd6774/groups'
+				'https://api.akademia.cc/public/schools'
 			);
 			const data = await response.json();
 			state = 'loaded';
@@ -20,7 +20,7 @@
 		} catch (error) {
 			try {
 				const response = await fetch(
-					'https://akademia-api.arctix.dev/public/schools/0aad6f5f-3f49-41a4-8b1e-19780ddd6774/groups'
+					'https://akademia-api.arctix.dev/public/schools'
 				);
 				const data = await response.json();
 				state = 'loaded';
