@@ -8,9 +8,9 @@
 	onMount(async () => {
 		try {
 			const response = await fetch(
-				'https://akademia.cc/'
+				'https://api.akademia.cc/public/schools'
 			);
-			const data = await response.text();
+			const data = await response.json();
 			goto('https://app.akademia.cc/register');
 		} catch (error) {}
 	});
