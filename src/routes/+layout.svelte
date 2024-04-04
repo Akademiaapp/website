@@ -11,7 +11,7 @@
 				'https://api.akademia.cc/public/schools'
 			);
 			const data = await response.json();
-			goto('https://app.akademia.cc/register');
+			goto('https://akademia.cc/');
 		} catch (error) {}
 	});
 
