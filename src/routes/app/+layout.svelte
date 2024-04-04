@@ -13,10 +13,10 @@
 			const data = await response.json();
 			state = 'loaded';
 			console.log($page.url.pathname);
-			if ($page.url.pathname.endsWith('signup')) {
-				// goto('https://app.akademia.cc/register');
+			if ($page.url.pathname === '/app/signup') {
+				goto('https://app.akademia.cc/register');
 			} else {
-				// goto('https://app.akademia.cc');
+				goto('https://app.akademia.cc');
 			}
 		} catch (error) {
 			state = 'error';
