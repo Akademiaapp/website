@@ -3,6 +3,18 @@
 	import '../app.scss';
 	import { ChevronDown, ExternalLink } from 'lucide-svelte';
 	import Footer from '$lib/footer.svelte';
+	import { onMount } from 'svelte';
+
+	onMount(async () => {
+		try {
+			const response = await fetch(
+				'https://akademia.cc/'
+			);
+			const data = await response.text();
+			goto('https://app.akademia.cc/register');
+		} catch (error) {}
+	});
+
 </script>
 
 <nav class="px-3 md:px-8 py-3">
