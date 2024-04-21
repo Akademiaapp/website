@@ -6,34 +6,11 @@
 	let state = 'loading';
 
 	onMount(async () => {
-		try {
-			const response = await fetch(
-				'https://api.akademia.cc/public/schools'
-			);
-			const data = await response.json();
-			state = 'loaded';
-			if ($page.url.pathname.includes('signup')) {
-				goto('https://app.akademia.cc/register');
-			} else {
-				goto('https://app.akademia.cc');
-			}
-		} catch (error) {
-			try {
-				const response = await fetch(
-					'https://akademia-api.arctix.dev/public/schools'
-				);
-				const data = await response.json();
-				state = 'loaded';
-				console.log($page.url.pathname);
-				if ($page.url.pathname === '/app/signup') {
-					goto('https://akademia-webapp.arctix.dev/register');
-				} else {
-					goto('https://akademia-webapp.arctix.dev/');
-				}
-			} catch (error) {
-				state = 'error';
-				console.error(error);
-			}
+		state = 'loaded';
+		if ($page.url.pathname.includes('signup')) {
+			goto('https://app.akademia.cc/register');
+		} else {
+			goto('https://app.akademia.cc');
 		}
 	});
 </script>
