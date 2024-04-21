@@ -77,7 +77,7 @@
 							<a href="https://github.com/akademiaapp/" class="fancy">Github</a>
 						</li>
 						<li class="mb-4">
-							<a href="https:/status.akademia.cc/" class="fancy">Status</a>
+							<a href="https://status.akademia.cc/" class="fancy">Status</a>
 						</li>
 						<!-- <li>
                           <a href="" class="hover:underline">Discord</a>
