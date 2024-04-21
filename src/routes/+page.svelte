@@ -35,6 +35,7 @@
 					<ArrowDown size="19"></ArrowDown>
 				</a>
 			</div>
+			<p class="sm:hidden">Virker kun på PC</p>
 			<img
 				src="screenshot.png"
 				alt="Screenshot of Akademia"
