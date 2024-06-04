@@ -25,7 +25,7 @@
 			/>
 			<div class="flex gap-10 justify-center sm:justify-start items-center text-xl">
 				<a
-					href="/app/signup"
+					href="https://app.akademia.cc/register"
 					class="button hidden sm:block shadow primary text-xl px-6 py-1.5 rounded-md"
 				>
 					Prøv det!

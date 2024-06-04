@@ -7,14 +7,11 @@
 
 	onMount(async () => {
 		try {
-			const response = await fetch(
-				'https://api.akademia.cc/public/schools'
-			);
+			const response = await fetch('https://api.akademia.cc/public/schools');
 			const data = await response.json();
 			goto('https://akademia.cc/');
 		} catch (error) {}
 	});
-
 </script>
 
 <nav class="px-3 md:px-8 py-3">
@@ -29,8 +26,8 @@
 			<ExternalLink size="19" />
 		</a>
 		<div class="spacer"></div>
-		<a href="/app" class="button hover:bg-muted">Login</a>
-		<a href="app/signup" class="button primary">Sign up</a>
+		<a href="https://app.akademia.cc" class="button hover:bg-muted">Login</a>
+		<a href="https://app.akademia.cc/register" class="button primary">Sign up</a>
 	</div>
 </nav>
 <div class="min-h-[95vh] mx-auto">
