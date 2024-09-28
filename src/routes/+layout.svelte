@@ -12,7 +12,16 @@
 			goto('https://akademia.cc/');
 		} catch (error) {}
 	});
+
+	function beforeOpen() {
+		alert('Du er ved at åbne en beta version af Akademia');
+	}
 </script>
+
+<header class="w-full p-5 px-9 bg-yellow-300 flex justify-between">
+	<b>⚠️ OBS. AKADEMIA ER STADIG I EN MEGET TIDLIG STADIE. </b>
+	<b>⚠️ ATTENTION. AKADEMIA IS STILL IN A VERY EARLY STAGE. </b>
+</header>
 
 <nav class="px-3 md:px-8 py-3">
 	<a href="/" class="mr-3">
@@ -26,8 +35,8 @@
 			<ExternalLink size="19" />
 		</a>
 		<div class="spacer"></div>
-		<a href="https://app.akademia.cc" class="button hover:bg-muted">Login</a>
-		<a href="https://app.akademia.cc/register" class="button primary">Sign up</a>
+		<a href="https://app.akademia.cc" class="button hover:bg-muted" on:click={beforeOpen}>Login</a>
+		<a href="https://app.akademia.cc/register" class="button primary" on:click={beforeOpen}>Sign up</a>
 	</div>
 </nav>
 <div class="min-h-[95vh] mx-auto">

@@ -2,6 +2,10 @@
 	import { Badge } from '$lib/components/ui/badge';
 	import ContactForm from '$lib/contactForm.svelte';
 	import { ArrowDown } from 'lucide-svelte';
+
+	function beforeOpen() {
+		alert('Du er ved at åbne en beta version af Akademia');
+	}
 </script>
 
 <div
@@ -27,6 +31,7 @@
 				<a
 					href="https://app.akademia.cc/register"
 					class="button hidden sm:block shadow primary text-xl px-6 py-1.5 rounded-md"
+					on:click={beforeOpen}
 				>
 					Prøv det!
 				</a>
