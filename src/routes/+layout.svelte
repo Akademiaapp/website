@@ -19,8 +19,8 @@
 </script>
 
 <header class="w-full p-5 px-9 bg-yellow-300 flex justify-between">
-	<b>⚠️ OBS. AKADEMIA ER STADIG I EN MEGET TIDLIG STADIE. </b>
-	<b>⚠️ ATTENTION. AKADEMIA IS STILL IN A VERY EARLY STAGE. </b>
+	<b>⚠️ OBS. AKADEMIA ER STADIG I EN MEGET TIDLIG STADIE. 🚧</b>
+	<b>⚠️ ATTENTION. AKADEMIA IS STILL IN A VERY EARLY STAGE. 🚧</b>
 </header>
 
 <nav class="px-3 md:px-8 py-3">
