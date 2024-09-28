@@ -4,6 +4,7 @@
 	import { ChevronDown, ExternalLink } from 'lucide-svelte';
 	import Footer from '$lib/footer.svelte';
 	import { onMount } from 'svelte';
+	import { goto } from '$app/navigation';
 
 	onMount(async () => {
 		try {
