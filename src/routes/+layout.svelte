@@ -1,10 +1,13 @@
 <script lang="ts">
 	import DownloadDropdown from './../lib/components/DownloadDropdown.svelte';
 	import '../app.scss';
-	import { ChevronDown, ExternalLink } from 'lucide-svelte';
+	import { X, ExternalLink } from 'lucide-svelte';
 	import Footer from '$lib/footer.svelte';
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
+	import { fly } from 'svelte/transition';
+
+	let showBetaWarning = true;
 
 	onMount(async () => {
 		try {
@@ -19,10 +22,17 @@
 	}
 </script>
 
-<header class="w-full p-5 px-9 bg-yellow-300 flex justify-between">
+{#if showBetaWarning}
+<header class="w-full p-5 px-9 bg-yellow-300 flex justify-between" transition:fly={{ y: -100 }}>
 	<b>⚠️ OBS. AKADEMIA ER STADIG I EN MEGET TIDLIG STADIE. 🚧</b>
-	<b>⚠️ ATTENTION. AKADEMIA IS STILL IN A VERY EARLY STAGE. 🚧</b>
+	<div class="flex gap-5">
+		<b>⚠️ ATTENTION. AKADEMIA IS STILL IN A VERY EARLY STAGE. 🚧</b>
+		<button on:click={() => showBetaWarning = false}>
+			<X size="24" />
+		</button>
+	</div>
 </header>
+{/if}
 
 <nav class="px-3 md:px-8 py-3">
 	<a href="/" class="mr-3">
