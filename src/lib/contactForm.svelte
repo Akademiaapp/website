@@ -10,8 +10,8 @@
 		method="post"
 		class="flex h-full flex-col gap-4 lg:max-w-[20rem] xl:max-w-[30rem] 2xl:max-w-[40rem]"
 	>
-		<h1 class="font-bold text-4xl">Kontakt os</h1>
-		<p class="">
+		<h1 class="font-bold text-4xl strikethrough">Kontakt os</h1>
+		<p class="strikethrough">
 			Har du spørgsmål, ris eller ros? Så tøv ikke med at kontakte os! Vi vil gøre vores bedste for
 			at besvare din henvendelse hurtigst muligt.
 		</p>
@@ -26,6 +26,6 @@
 		<input type="hidden" name="subject" value="Contact us from - akademia.cc" />
 		<input type="hidden" name="replyTo" value="@" />
 		<input type="hidden" name="redirectTo" value="https://akademia.cc/" />
-		<Button type="submit" class="text-lg w-48 h-12">Send besked</Button>
+		<Button type="submit" disabled class="text-lg w-48 h-12">Send besked</Button>
 	</form>
 </div>
